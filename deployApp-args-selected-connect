@@ -1,0 +1,8 @@
+argslist <-
+quote(rsconnect::deployApp(appDir = "/home/mbaynton/tmp/quarto-page", 
+    appFileManifest = "/tmp/8ee7-a67a-8364-3d2d", appPrimaryDoc = "quarto-page.html", 
+    appSourceDoc = "~/tmp/quarto-page/quarto-page.qmd", appName = "quarto-page2", 
+    appTitle = "quarto-page", account = "e5c2wc-mike-baynton", 
+    server = "rstudio.cloud", launch.browser = function(url) {
+        message("Deployment completed: ", url)
+    }, lint = FALSE, metadata = list(asMultiple = FALSE, asStatic = TRUE)))

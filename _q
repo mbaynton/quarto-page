@@ -1,0 +1,9 @@
+project:
+  title: "quarto-page"
+  render:
+    - README.qmd
+
+
+editor: visual
+
+

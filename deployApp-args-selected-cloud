@@ -1,0 +1,8 @@
+argslist <-
+quote(rsconnect::deployApp(appDir = "~/tmp/quarto-page", appFileManifest = "/tmp/18e8-64f1-1d19-1e0f", 
+    appPrimaryDoc = "quarto-page.qmd", appSourceDoc = "~/tmp/quarto-page/quarto-page.qmd", 
+    appName = "quarto-page", appTitle = "quarto-page", account = "e5c2wc-mike-baynton", 
+    server = "rstudio.cloud", launch.browser = function(url) {
+        message("Deployment completed: ", url)
+    }, lint = FALSE, metadata = list(quarto_version = "1.1.251", 
+        quarto_engines = I(c("knitr")), asMultiple = FALSE, asStatic = FALSE)))
